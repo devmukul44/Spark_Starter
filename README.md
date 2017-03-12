@@ -1,4 +1,4 @@
-* Spark Tutorial with Best Practices
+### Spark Tutorial with Best Practices
 <pre>https://github.com/devmukul44/spark-tutorial</pre>
 
 ## Spark Articles
@@ -13,7 +13,7 @@
 * Spark SQL - Programetically specifying the Schema
 <pre>https://www.tutorialspoint.com/spark_sql/programmatically_specifying_schema.htm</pre>
 
-#### Best Practices for Unit Test Cases for Spark Framework and Scala Programming Languages
+## Best Practices for Unit Test Cases for Spark Framework and Scala Programming Languages
 
 * Done using the scalatest library Funsuite under the org.scalatest.Funsuite
 * Interception of errors are done with the help of intercept.
@@ -22,7 +22,7 @@
 * Use === to get a good view of the failing of the test.
 * The code of mathematical expression parser was changed and map was added as it provides the flexibility to define the key and value for the expression provided.
 
-## Unit Test Corrections
+#### Unit Test Corrections
 
 * wrong 
 <pre>
@@ -41,7 +41,7 @@ val toBe = chart("1") / chart("2")
 
 * avoid redundant test cases
 
-*wrong
+* wrong
 
 <pre>
 assert(Calculator.check("(-6.3 * 9.4)  - 3") == -62.22)
